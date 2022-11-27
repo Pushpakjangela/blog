@@ -1,23 +1,51 @@
 
 <%- include("partials/newheader"); -%>
 <div class="homediv">
+  <div class="homeh1p1_1">
 
-    <h1>Home</h1>
-    <p> <%= startingContent %> </p>
-
-
-  <%  posts.forEach(function(post){ %>
-
-    <h1><%=post.title%></h1>
-    <p>
-    <%=post.content%>
-    <a href="/posts/<%=post._id%>">
-    <hr>  Read More</a>
-    </p>
-
-
-    <% }) %>
+    <div class="homeh1p1_2">
+      <h1 class="homeh1">Home</h1>
+      <div class="">
+        <img class="homeimg" src="image/thinking.jpg" alt="oops">
+      </div>
+    </div>
   </div>
+
+  <div class="homepdiv">
+
+    <p class="homep"> <%= startingContent %> </p>
+</div>
+<hr>
+
+<%  posts.forEach(function(post){ %>
+<div class="body1">
+    <div class="container1">
+      <div class="panel active" style="background-image: url('https://images.unsplash.com/photo-1558979158-65a1eaa08691?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1350&q=80')">
+        <h1 class="panelposth1"><%=post.title%></h1>
+        <div class="panelpostpw">
+        <p class="panelpostp">
+          <%=post.content%>
+        </div>
+          <br>
+          <a href="/posts/<%=post._id%>">
+            Read More</a>
+          </p>
+
+
+      </div>
+
+    </div>
+
+  </div>
+  <% }) %>
+
+
+  </div>
+
+
+
+
+
 
 <%- include("partials/middle"); -%>
 
