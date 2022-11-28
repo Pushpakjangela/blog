@@ -10,8 +10,11 @@ const mongoose = require('mongoose');
 /*---------------------expended cards------------*/
 
 
+
+
+
 const homeStartingContent = "Hey guy's this website is the for blog web site.Here you can post your Everyday's blog.You know that,Everyday has many story and Everyday has it's own memory.Here you can post your story so don't be shy for sharing thing's.";
-const aboutContent = "Hac habitasse platea dictumst vestibulum rhoncus est pellentesque. Dictumst vestibulum rhoncus est pellentesque elit ullamcorper. Non diam phasellus vestibulum lorem sed. Platea dictumst quisque sagittis purus sit. Egestas sed sed risus pretium quam vulputate dignissim suspendisse. Mauris in aliquam sem fringilla. Semper risus in hendrerit gravida rutrum quisque non tellus orci. Amet massa vitae tortor condimentum lacinia quis vel eros. Enim ut tellus elementum sagittis vitae. Mauris ultrices eros in cursus turpis massa tincidunt dui.";
+const aboutContent = "So we are college student's and we create this wonderful blog website, mostly for the introvert type people.But also anyone come here share their thought...,so you know each day contain many memory good and bad memory in everybody life's and some of them want's to share that but,Due to their inner fear ,if he/she share their thought then people not make their laugh's.So here you can share thought without any fear and the will not forced to share their name or any id, This generally a social website to connect the people thought's.";
 const contactContent = "Scelerisque eleifend donec pretium vulputate sapien. Rhoncus urna neque viverra justo nec ultrices. Arcu dui vivamus arcu felis bibendum. Consectetur adipiscing elit duis tristique. Risus viverra adipiscing at in tellus integer feugiat. Sapien nec sagittis aliquam malesuada bibendum arcu vitae. Consequat interdum varius sit amet mattis. Iaculis nunc sed augue lacus. Interdum posuere lorem ipsum dolor sit amet consectetur adipiscing elit. Pulvinar elementum integer enim neque. Ultrices gravida dictum fusce ut placerat orci nulla. Mauris in aliquam sem fringilla ut morbi tincidunt. Tortor posuere ac ut consequat semper viverra nam libero.";
 
 const app = express();

@@ -137,43 +137,47 @@
   font-size: 120px;
   font-family: serif;
 }
+
 .homepdiv2 {
   text-align: center;
-margin-top: 35px;
-margin-left: 530px;
+  margin-top: 35px;
+  margin-left: 530px;
 }
 
 .homeimg {
   width: 571px;
-border-radius: 50%;
-height: 463px;
+  border-radius: 50%;
+  height: 463px;
 }
-.homepdiv{
-  padding-top:20px;
+
+.homepdiv {
+  padding-top: 20px;
   text-align: center;
-  padding-left:540px;
+  padding-left: 540px;
 }
 
 .homeh1p1_1 {
   text-align: center;
 }
-.panelposth1{
+
+.panelposth1 {
   padding-bottom: 75px;
-  font-size: 60px;
-  padding-top: 10px;
+  font-size: 50px;
+  padding-top: 15px;
   text-align: center;
 }
 
-.panelpostpw{
+.panelpostpw {
   padding-left: 130px;
   padding-right: 120px;
 }
-.panelpostp{
+
+.panelpostp {
   width: 1020px;
   font-size: 20px;
-text-align: center;
-
+  text-align: center;
 }
+
 .homeh1p1_2 {
   /* background-color: antiquewhite; */
   text-align: center;
@@ -181,8 +185,18 @@ text-align: center;
   padding: 20px;
 }
 
-/*---------------------------home post div-----------------------------*/
+.panela {
+  text-align: center;
+  margin-left: 624px;
+  color: #fff;
+  font-size: 20px;
+}
+.aboutp{
+  font-size: 15px;
+}
 
+
+/*---------------------------home post div-----------------------------*/
 /*--------------developer-----------------*/
 .developer {
   background: #EBC7E8;
