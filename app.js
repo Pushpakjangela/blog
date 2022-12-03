@@ -28,7 +28,7 @@ app.use(express.static("public"));
 //step -1 install mongoose
 //step -2 const mongoose = require('mongoose');
 //step -3 connect
-mongoose.connect("mongodb+srv://pushpakjangela02:crEKcU97UlBC2y3R@cluster0.qnkbkjn.mongodb.net/blogDB",{useNewUrlParser:true});
+mongoose.connect("mongodb+srv://pushpakjangela02:YQsnyfEYhPaG8bWT@cluster0.qnkbkjn.mongodb.net/blogDB",{useNewUrlParser:true});
 
 //step -4 schema
 
