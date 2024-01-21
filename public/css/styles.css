@@ -39,9 +39,12 @@
   width: 100%;
   min-height: 100vh;
   /* background-color: yellow; */
-  /* position: relative; */
+  position: relative;
   overflow: hidden;
 }
+#wallahmain a{
+}
+
 #wallahmain .wallah {
   /* overflow: hidden; */
   position: relative;
@@ -390,13 +393,25 @@
 }
 
 .middlebutton {
-  width: 200px;
-  height: 55px;
-  font-size: 30px;
+  position: absolute;
+  left: 47%;
+  top: 80%;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 1px solid #555;
+  font-size: 1.2vw;
   font-family: serif;
   color: #fff;
-  background-color: #282a3a;
-  border-radius: 35px;
+
+  background-color: #000;
+
+  transition: all ease-in-out .4s;
+}
+.middlebutton:hover{
+  background-color: #f2eee8;
+  color: #000;
+
 }
 
 .homep {
@@ -1548,3 +1563,10 @@ nav {
 }
 
 
+#compose{
+  width: 100%;
+  min-height: 100vh;
+  /* background-color: red; */
+  padding: 4vw;
+
+}
