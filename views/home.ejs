@@ -1,12 +1,13 @@
 
 <%- include("partials/newheader"); -%>
+<%- include("partials/extra"); -%>
 <div class="homediv">
-  <div class="homeh1p1_1">
+  <!-- <div class="homeh1p1_1">
 
     <div class="homeh1p1_2">
       <h1 class="homeh1">Home</h1>
-      <div class="">
-        <img class="homeimg" src="image/thinking.jpg" alt="oops">
+      <div class="homeimg">
+        <img class="" src="image/thinking.jpg" alt="oops">
       </div>
     </div>
   </div>
@@ -14,13 +15,47 @@
   <div class="homepdiv">
 
     <p class="homep"> <%= startingContent %> </p>
-</div>
-<hr>
+</div> -->
+<!-- <div id="page3">
+  <div class="container">
+    <div id="slide">
+          <%  posts.forEach(function(post){ %>
+          <div class="item" style="background-image: url(./image/leaf.avif)">
+            <div class="content">
+              <div class="name"><%=post.title%></div>
+              <div class="description">
+                <p><%=post.content%></p>
+              </div>
+              <button>See more</button>
+            </div>
+          </div>
+          
+          <% }) %>
+        </div>
+          <div class="button">
+            <button id="prev"><i class="ri-arrow-left-line"></i></button>
+            <button id="next"><i class="ri-arrow-right-line"></i></button>
+          </div>
+        </div>
+      </div> -->
+
 
 <%  posts.forEach(function(post){ %>
 <div class="body1">
-    <div class="container1">
-      <div class="panel active" style="background-image: url('image/dark.jpg')">
+  <div id="bodynav">
+    <h5>The Quotes</h5>
+    <h6>3+</h6>
+  </div>
+  <div id="bodyquotes">
+    <h3><%=post.content%></h3>
+    <h6><%=post.title%> ~</h6>
+  </div>
+  <div id="bodyimg">
+    <img src="../image/statue.avif" alt="">
+  </div>
+
+    <!-- <div class="container1">
+      <div class="panel active" style="background-image: url('')">
         <h1 class="panelposth1"><%=post.title%></h1>
         <div class="panelpostpw">
         <p class="panelpostp">
@@ -34,7 +69,7 @@
 
       </div>
 
-    </div>
+    </div> -->
 
   </div>
   <% }) %>
